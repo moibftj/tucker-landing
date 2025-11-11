@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-[#3a4d6f]/95 backdrop-blur-sm shadow-lg' : 'bg-[#3a4d6f]'
+      scrolled ? 'bg-[#323f65]/95 backdrop-blur-sm shadow-lg' : 'bg-[#323f65]'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
