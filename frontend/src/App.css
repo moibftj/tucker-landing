@@ -1,34 +1,57 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-}
-
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
-
-.App-link {
-    color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/* Custom animations */
+@keyframes fade-in {
     from {
-        transform: rotate(0deg);
+        opacity: 0;
+        transform: translateY(20px);
     }
     to {
-        transform: rotate(360deg);
+        opacity: 1;
+        transform: translateY(0);
     }
+}
+
+.animate-fade-in {
+    animation: fade-in 1s ease-out;
+}
+
+/* Video hover effects */
+video {
+    transition: transform 0.3s ease;
+}
+
+video:hover {
+    transform: scale(1.02);
+}
+
+/* Button hover glow */
+button:hover {
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
+}
+
+/* Smooth transitions for all interactive elements */
+a, button, input, textarea {
+    transition: all 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4DB8BA;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3a9799;
 }
