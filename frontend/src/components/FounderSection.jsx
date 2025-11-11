@@ -51,18 +51,6 @@ const FounderSection = () => {
           </div>
         </div>
 
-        {/* Tribute to Tucker */}
-        <div className="mt-16 text-center bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl">
-          <div className="flex justify-center mb-4">
-            <Heart className="w-12 h-12 text-[#ec4899] fill-current animate-pulse" />
-          </div>
-          <h3 className="text-2xl font-bold text-[#3a4d6f] mb-3">
-            A Tribute to Tucker
-          </h3>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            This website is dedicated to the memory of Tucker, my beloved companion whose adventurous spirit and unwavering loyalty inspired countless journeys. Tucker taught me that the best travel experiences are those shared with someone you love and trust—a lesson that lives on in every authentic review and genuine recommendation shared on Tucker Trips.
-          </p>
-        </div>
       </div>
     </section>
   );
