@@ -6,7 +6,6 @@ import HeroSection from "./components/HeroSection";
 import CommunitySection from "./components/CommunitySection";
 import WhoWeAreSection from "./components/WhoWeAreSection";
 import FeaturesSection from "./components/FeaturesSection";
-import VideoSection from "./components/VideoSection";
 import FounderSection from "./components/FounderSection";
 import ContactSection from "./components/ContactSection";
 import CTASection from "./components/CTASection";
