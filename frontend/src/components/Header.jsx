@@ -19,25 +19,19 @@ const Header = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <div className="relative w-16 h-16">
+          {/* Logo - Only animated video */}
+          <div className="flex items-center">
+            <div className="relative h-16 w-auto">
               <video
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="w-full h-full object-contain"
+                className="h-full w-auto object-contain"
+                style={{ maxHeight: '64px' }}
               >
                 <source src="https://customer-assets.emergentagent.com/job_43a6966a-d890-4dd3-91aa-8c7f1d773745/artifacts/d3iha7rk_withoutline.webm" type="video/webm" />
               </video>
-            </div>
-            <div className="flex flex-col">
-              <h1 className="text-2xl font-bold">
-                <span className="text-[#ec4899]">Tucker</span>
-                <span className="text-white">trips</span>
-              </h1>
-              <p className="text-[10px] text-white/80 uppercase tracking-wider">LOG YOUR TRIP. INSPIRE OTHERS</p>
             </div>
           </div>
 
