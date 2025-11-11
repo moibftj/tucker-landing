@@ -19,11 +19,11 @@ const Home = () => {
       <Header />
       <main>
         <HeroSection />
+        <FounderSection />
         <CommunitySection />
         <WhoWeAreSection />
         <FeaturesSection />
         <VideoSection />
-        <FounderSection />
         <ContactSection />
         <CTASection />
       </main>
