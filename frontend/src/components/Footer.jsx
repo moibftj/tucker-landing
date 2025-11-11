@@ -12,7 +12,7 @@ const Footer = () => {
     e.preventDefault();
     toast({
       title: "Subscribed!",
-      description: "Thank you for subscribing to our newsletter.",
+      description: "Welcome to Tucker Trips newsletter.",
     });
     setNewsletter({ name: '', email: '' });
   };
@@ -38,7 +38,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Real travel reviews from people you trust. No fake reviews, no anonymous strangers—just authentic experiences from your network.
+              Real travel notes from people you trust. No anonymous reviews—just authentic trip logs from your trusted circle.
             </p>
           </div>
 
@@ -48,12 +48,22 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-300 hover:text-[#ec4899] transition-colors duration-300">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-[#ec4899] transition-colors duration-300">
                   Privacy Policy
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-[#ec4899] transition-colors duration-300">
                   Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-[#ec4899] transition-colors duration-300">
+                  Contact
                 </a>
               </li>
             </ul>
@@ -85,6 +95,9 @@ const Footer = () => {
               >
                 Sign up
               </Button>
+              <p className="text-xs text-gray-400">
+                We never sell your data. Unsubscribe anytime.
+              </p>
             </form>
           </div>
         </div>
@@ -93,7 +106,7 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              Copyright © 2024 Tucker Trips, All rights reserved.
+              © Tucker Trips
             </p>
             
             {/* Social Icons */}

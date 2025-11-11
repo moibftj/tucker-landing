@@ -26,7 +26,7 @@ const ContactSection = () => {
     e.preventDefault();
     toast({
       title: "Message Sent!",
-      description: "Thank you for contacting us. We'll get back to you soon.",
+      description: "We'll reply within 1–2 business days.",
     });
     setFormData({
       name: '',
@@ -44,19 +44,21 @@ const ContactSection = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h6 className="text-[#4DB8BA] text-sm font-bold uppercase tracking-wider mb-4">Get in touch</h6>
+              <h6 className="text-[#4DB8BA] text-sm font-bold uppercase tracking-wider mb-4">Get in Touch</h6>
               <h2 className="text-4xl md:text-5xl font-bold text-[#3a4d6f] mb-6">
-                Don't hesitate to contact us for more information.
+                Don't hesitate to reach out
               </h2>
+              <p className="text-lg text-gray-600 mb-8">
+                Questions, ideas, or partnerships? We'd love to hear from you.
+              </p>
               <Button className="bg-[#ec4899] hover:bg-[#db2777] text-white font-bold px-8 py-6 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-                Contact us
+                Contact Us
               </Button>
             </div>
           </div>
 
           {/* Contact Form */}
           <div className="bg-white p-8 rounded-2xl shadow-xl">
-            <h6 className="text-[#4DB8BA] text-sm font-bold uppercase tracking-wider mb-4">Need help?</h6>
             <h3 className="text-2xl font-bold text-[#3a4d6f] mb-6">Send us a message</h3>
             
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -73,7 +75,7 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <Label htmlFor="phone" className="text-gray-700">Phone</Label>
+                <Label htmlFor="phone" className="text-gray-700">Phone <span className="text-gray-400 text-sm">(optional)</span></Label>
                 <Input
                   id="phone"
                   name="phone"
@@ -81,7 +83,6 @@ const ContactSection = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   className="mt-1"
-                  required
                 />
               </div>
 
@@ -128,6 +129,10 @@ const ContactSection = () => {
               >
                 Send Message
               </Button>
+              
+              <p className="text-sm text-gray-500 text-center">
+                We'll reply within 1–2 business days.
+              </p>
             </form>
           </div>
         </div>
