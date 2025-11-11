@@ -80,19 +80,6 @@ const VideoSection = () => {
           )}
         </div>
 
-        {/* Image Gallery Below Video */}
-        <div className="grid grid-cols-2 gap-6 mt-12">
-          <img
-            src="https://images.pexels.com/photos/1374064/pexels-photo-1374064.jpeg"
-            alt="Travel moment 1"
-            className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
-          />
-          <img
-            src="https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg"
-            alt="Travel moment 2"
-            className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
-          />
-        </div>
       </div>
     </section>
   );
