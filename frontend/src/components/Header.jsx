@@ -21,14 +21,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo - Only animated video */}
           <div className="flex items-center">
-            <div className="relative h-16 w-auto" style={{ mixBlendMode: 'screen' }}>
+            <div className="relative h-16 w-auto bg-[#323f65] rounded-lg px-2" style={{ backgroundColor: '#323f65' }}>
               <video
                 autoPlay
                 loop
                 muted
                 playsInline
                 className="h-full w-auto object-contain"
-                style={{ maxHeight: '64px', filter: 'brightness(1.2) contrast(1.1)' }}
+                style={{ maxHeight: '64px', mixBlendMode: 'lighten', opacity: 0.95 }}
               >
                 <source src="https://customer-assets.emergentagent.com/job_43a6966a-d890-4dd3-91aa-8c7f1d773745/artifacts/d3iha7rk_withoutline.webm" type="video/webm" />
               </video>
@@ -54,9 +54,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      
-      {/* Pink diagonal accent */}
-      <div className="absolute top-0 right-0 w-64 h-full bg-[#ec4899] opacity-30 transform skew-x-[-12deg] translate-x-32 pointer-events-none"></div>
     </header>
   );
 };
