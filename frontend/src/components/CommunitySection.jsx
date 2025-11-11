@@ -1,4 +1,5 @@
 import React from 'react';
+import { Shield } from 'lucide-react';
 
 const CommunitySection = () => {
   return (
@@ -21,14 +22,45 @@ const CommunitySection = () => {
               Travel Advice from People Who Actually Know You
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Tired of sifting through hundreds of anonymous reviews wondering if they're real? Tucker Trips is your <strong className="text-[#3a4d6f]">private travel community</strong> where you connect exclusively with friends and family you know and trust.
+              Ditch the noise. Tucker Trips connects your circle's real experiences—what worked, what didn't, and what they'd do differently—so you can plan trips that fit your reality.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              No more wondering if that "amazing" hotel review was paid for. No more suspicious 5-star ratings from accounts with only one review. Just <strong className="text-[#ec4899]">genuine experiences</strong> from real people in your network who understand your preferences and have your best interests at heart.
-            </p>
-            <div className="bg-[#4DB8BA]/10 border-l-4 border-[#4DB8BA] p-6 rounded-lg">
+            
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-8 h-8 bg-[#4DB8BA]/20 rounded-full flex items-center justify-center mt-1">
+                  <div className="w-3 h-3 bg-[#4DB8BA] rounded-full"></div>
+                </div>
+                <div>
+                  <h4 className="font-bold text-[#3a4d6f] mb-1">Your circle, your reviews</h4>
+                  <p className="text-gray-600">Only people you invite can view private trips.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-8 h-8 bg-[#4DB8BA]/20 rounded-full flex items-center justify-center mt-1">
+                  <div className="w-3 h-3 bg-[#4DB8BA] rounded-full"></div>
+                </div>
+                <div>
+                  <h4 className="font-bold text-[#3a4d6f] mb-1">Context that matters</h4>
+                  <p className="text-gray-600">Budget, season, traveler type, and gotchas.</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-8 h-8 bg-[#4DB8BA]/20 rounded-full flex items-center justify-center mt-1">
+                  <div className="w-3 h-3 bg-[#4DB8BA] rounded-full"></div>
+                </div>
+                <div>
+                  <h4 className="font-bold text-[#3a4d6f] mb-1">Ask follow-ups</h4>
+                  <p className="text-gray-600">Message your friend about that hike, parking tip, or kid timing.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-[#4DB8BA]/10 border-l-4 border-[#4DB8BA] p-6 rounded-lg flex items-center gap-3">
+              <Shield className="w-6 h-6 text-[#4DB8BA] flex-shrink-0" />
               <p className="text-base font-semibold text-[#3a4d6f]">
-                ✨ Your circle, your reviews, your perfect trip—no strangers required.
+                Private by default. Flip to public when you're ready.
               </p>
             </div>
           </div>

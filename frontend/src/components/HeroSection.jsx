@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight, Compass } from 'lucide-react';
 
 const HeroSection = () => {
   const scrollToContent = () => {
@@ -17,20 +17,17 @@ const HeroSection = () => {
           {/* Left Side - Content */}
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
-              <h6 className="text-[#4DB8BA] text-sm font-bold uppercase tracking-wider">
-                Welcome to Tucker Trips
-              </h6>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ec4899] via-[#f472b6] to-[#ec4899] drop-shadow-[0_0_30px_rgba(236,72,153,0.5)]">
-                  Real Travel Reviews
+                  Real travel notes
                 </span>
                 <br />
                 <span className="text-white">
-                  From People You Trust
+                  from people you trust
                 </span>
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed max-w-lg">
-                Stop relying on fake reviews from strangers! Get authentic trip logs, honest recommendations, and reliable travel advice from your trusted circle of friends and family.
+                Skip anonymous reviews. Log your trips, share honest lessons, and help your circle travel smarter.
               </p>
             </div>
 
@@ -40,7 +37,7 @@ const HeroSection = () => {
                 onClick={scrollToContent}
                 className="group bg-[#ec4899] hover:bg-[#db2777] text-white font-bold px-8 py-6 text-lg rounded-full shadow-2xl hover:shadow-[#ec4899]/50 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex items-center justify-center gap-2"
               >
-                Join the Community
+                Start a Trip
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
               </Button>
               
@@ -49,24 +46,31 @@ const HeroSection = () => {
                 variant="outline"
                 className="group bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#3a4d6f] font-bold px-8 py-6 text-lg rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex items-center justify-center gap-2"
               >
-                <Play className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
-                See How It Works
+                <Compass className="w-5 h-5 group-hover:rotate-90 transition-transform duration-300" />
+                Browse Trusted Trips
               </Button>
             </div>
 
-            {/* Stats or Social Proof */}
-            <div className="flex gap-8 pt-4">
-              <div className="space-y-1">
-                <p className="text-3xl font-bold text-[#4DB8BA]">100%</p>
-                <p className="text-sm text-gray-400">Authentic Reviews</p>
+            {/* Microcopy */}
+            <div className="pt-2">
+              <p className="text-sm text-gray-400">
+                🔒 Private by default. Share only with the people you choose.
+              </p>
+            </div>
+
+            {/* Alt stat line */}
+            <div className="flex flex-wrap gap-6 pt-4 border-t border-white/10">
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-[#4DB8BA] rounded-full"></div>
+                <p className="text-sm text-gray-300">No anonymous reviews</p>
               </div>
-              <div className="space-y-1">
-                <p className="text-3xl font-bold text-[#4DB8BA]">0</p>
-                <p className="text-sm text-gray-400">Fake Reviews</p>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-[#4DB8BA] rounded-full"></div>
+                <p className="text-sm text-gray-300">Friends & family only</p>
               </div>
-              <div className="space-y-1">
-                <p className="text-3xl font-bold text-[#4DB8BA]">Real</p>
-                <p className="text-sm text-gray-400">Friends & Family</p>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-[#4DB8BA] rounded-full"></div>
+                <p className="text-sm text-gray-300">Share privately or publicly</p>
               </div>
             </div>
           </div>

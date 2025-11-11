@@ -7,19 +7,19 @@ const FeaturesSection = () => {
     {
       icon: BookOpen,
       title: 'Your Personal Travel Journal',
-      description: 'Document every adventure with detailed trip logs. Share what worked, what didn\'t, and everything in between. Your honest experiences help friends and family plan better trips.',
+      description: 'Capture highlights, lowlights, links, and "do this instead" tips—by day or stop.',
       color: '#ec4899'
     },
     {
       icon: Shield,
-      title: 'Zero Fake Reviews Guarantee',
-      description: 'Every review on Tucker Trips comes from someone in your verified network. No bots, no paid promotions, no anonymous strangers—just trustworthy insights from real people you know.',
+      title: 'No Anonymous Reviews',
+      description: 'Share with a circle or publish a public version. Every trip shows who wrote it.',
       color: '#4DB8BA'
     },
     {
       icon: Users,
       title: 'Your Trusted Travel Tribe',
-      description: 'Build your private community of fellow travelers. Connect with friends and family who share your travel style, swap insider tips, and help each other discover amazing destinations with confidence.',
+      description: 'Invite family, friends, or teams. Control visibility per trip; keep drafts private.',
       color: '#6366f1'
     }
   ];
@@ -30,11 +30,8 @@ const FeaturesSection = () => {
         <div className="text-center mb-16">
           <h6 className="text-[#4DB8BA] text-sm font-bold uppercase tracking-wider mb-4">How It Works</h6>
           <h2 className="text-4xl md:text-5xl font-bold text-[#3a4d6f] mb-6">
-            Real Trip Logs. Real Reviews. Real Trust.
+            Real trip logs. Real context. Real trust.
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Tucker Trips organizes your travel experiences and connects you with people who matter—no fake reviews, no anonymous opinions, just authentic advice from your trusted circle.
-          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
