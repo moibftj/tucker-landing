@@ -12,13 +12,17 @@ const HeroSection = () => {
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background Video with Overlay */}
       <div className="absolute inset-0">
-        <img
-          src="https://images.unsplash.com/photo-1501555088652-021faa106b9b"
-          alt="Travel Adventure"
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-full object-cover"
-        />
+        >
+          <source src="https://customer-assets.emergentagent.com/job_43a6966a-d890-4dd3-91aa-8c7f1d773745/artifacts/9o1y7nx5_tucker-trips_compressed.webm" type="video/webm" />
+        </video>
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#4DB8BA]/70 via-[#6366f1]/60 to-[#7c3aed]/70"></div>
       </div>
