@@ -22,15 +22,15 @@ const HeroSection = () => {
               </h6>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ec4899] via-[#f472b6] to-[#ec4899] drop-shadow-[0_0_30px_rgba(236,72,153,0.5)]">
-                  Experience the world,
+                  Real Travel Reviews
                 </span>
                 <br />
                 <span className="text-white">
-                  one voyage at a time.
+                  From People You Trust
                 </span>
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed max-w-lg">
-                Connect with trusted friends and family for authentic travel experiences. Plan your adventures with confidence using reliable, firsthand information.
+                Stop relying on fake reviews from strangers! Get authentic trip logs, honest recommendations, and reliable travel advice from your trusted circle of friends and family.
               </p>
             </div>
 
@@ -40,7 +40,7 @@ const HeroSection = () => {
                 onClick={scrollToContent}
                 className="group bg-[#ec4899] hover:bg-[#db2777] text-white font-bold px-8 py-6 text-lg rounded-full shadow-2xl hover:shadow-[#ec4899]/50 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex items-center justify-center gap-2"
               >
-                Get Started
+                Join the Community
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
               </Button>
               
@@ -50,23 +50,23 @@ const HeroSection = () => {
                 className="group bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#3a4d6f] font-bold px-8 py-6 text-lg rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 flex items-center justify-center gap-2"
               >
                 <Play className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
-                Watch Video
+                See How It Works
               </Button>
             </div>
 
             {/* Stats or Social Proof */}
             <div className="flex gap-8 pt-4">
               <div className="space-y-1">
-                <p className="text-3xl font-bold text-[#4DB8BA]">1000+</p>
-                <p className="text-sm text-gray-400">Travelers</p>
+                <p className="text-3xl font-bold text-[#4DB8BA]">100%</p>
+                <p className="text-sm text-gray-400">Authentic Reviews</p>
               </div>
               <div className="space-y-1">
-                <p className="text-3xl font-bold text-[#4DB8BA]">500+</p>
-                <p className="text-sm text-gray-400">Destinations</p>
+                <p className="text-3xl font-bold text-[#4DB8BA]">0</p>
+                <p className="text-sm text-gray-400">Fake Reviews</p>
               </div>
               <div className="space-y-1">
-                <p className="text-3xl font-bold text-[#4DB8BA]">5000+</p>
-                <p className="text-sm text-gray-400">Reviews</p>
+                <p className="text-3xl font-bold text-[#4DB8BA]">Real</p>
+                <p className="text-sm text-gray-400">Friends & Family</p>
               </div>
             </div>
           </div>

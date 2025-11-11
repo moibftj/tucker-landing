@@ -9,10 +9,13 @@ const WhoWeAreSection = () => {
           <div className="space-y-6">
             <h6 className="text-[#4DB8BA] text-sm font-bold uppercase tracking-wider">WHO WE ARE</h6>
             <h2 className="text-4xl md:text-5xl font-bold text-[#3a4d6f] leading-tight">
-              Traveling opens door to creating memories.
+              The Anti-Fake-Review Travel Community
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              At Tucker Trips, we understand the importance of honest and reliable travel information. That's why we pride ourselves on connecting you with your friends and family for truthful reviews, reliable logistics and dependable information to make your travel experiences exceptional.
+              At Tucker Trips, we're fighting back against the epidemic of <strong className="text-[#3a4d6f]">fake reviews, paid promotions, and anonymous opinions</strong> that plague big travel websites. We believe travel planning should be based on trust, not guesswork.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              That's why we've created a <strong className="text-[#ec4899]">closed community platform</strong> where you log your trips, share honest experiences, and get reliable advice exclusively from your network of trusted friends and family. Real reviews. Real relationships. Real peace of mind.
             </p>
           </div>
 
@@ -20,7 +23,7 @@ const WhoWeAreSection = () => {
           <div>
             <img
               src="https://images.unsplash.com/photo-1501555088652-021faa106b9b"
-              alt="Mountain adventure"
+              alt="Authentic mountain adventure"
               className="w-full h-[400px] object-cover rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-transform duration-500"
             />
           </div>
@@ -30,19 +33,19 @@ const WhoWeAreSection = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
             <h4 className="text-2xl font-bold text-[#3a4d6f] mb-4">
-              Unlock the Key to Unforgettable Adventures
+              📝 Log Your Real Experiences
             </h4>
             <p className="text-gray-600 leading-relaxed">
-              Explore our platform and gain access to candid reports that reflect real experiences. From accommodations to attractions, restaurants to activities, we provide you with reputable recaps that help you make informed decisions.
+              Document your trips with honest reviews, detailed logistics, and practical tips. Your trip logs become valuable resources for friends and family planning similar adventures—no fluff, no fake enthusiasm, just the truth.
             </p>
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
             <h4 className="text-2xl font-bold text-[#3a4d6f] mb-4">
-              Plan Your Next Trip with Confidence
+              🔍 Access Trusted Trip Logs
             </h4>
             <p className="text-gray-600 leading-relaxed">
-              Trust our community's firsthand experiences and recommendations. Our members provide truthful reviews and reliable logistics, giving you the information you need to plan your itinerary, find the best places to stay, and discover hidden gems.
+              Browse detailed trip reports from your trusted network. Know exactly what to expect because you're reading reviews from people who know you, share your values, and have nothing to gain from misleading you.
             </p>
           </div>
         </div>
@@ -51,19 +54,19 @@ const WhoWeAreSection = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
             <h4 className="text-2xl font-bold text-[#3a4d6f] mb-4">
-              Unlock the Key to Unforgettable Adventures
+              💬 Ask Real Questions, Get Real Answers
             </h4>
             <p className="text-gray-600 leading-relaxed">
-              Join a community of travelers who share your passion for exploration. Connect with friends and family who have similar travel interests and benefit from their candid reports and reputable recaps. Together, we create a network of trustworthy insights and experiences.
+              Reach out directly to friends and family who've been there. Get personalized advice, insider tips, and honest opinions tailored to your specific needs—something no anonymous review can provide.
             </p>
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
             <h4 className="text-2xl font-bold text-[#3a4d6f] mb-4">
-              Start Your Journey with Tucker Trips
+              🎯 Plan with Complete Confidence
             </h4>
             <p className="text-gray-600 leading-relaxed">
-              Sign up today and experience the power of truthful reviews, reliable logistics, and dependable information. Let us be your guide as you embark on unforgettable travel experiences. Together, we'll explore the world with the support and insights of our community.
+              Make informed decisions based on authentic experiences from people you trust. No more anxiety about fake reviews. No more wondering if you're being scammed. Just confident, stress-free travel planning.
             </p>
           </div>
         </div>

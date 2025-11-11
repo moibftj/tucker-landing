@@ -1,25 +1,25 @@
 import React from 'react';
-import { BookOpen, Map, Users } from 'lucide-react';
+import { BookOpen, Shield, Users } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 
 const FeaturesSection = () => {
   const features = [
     {
       icon: BookOpen,
-      title: 'Capture Every Moment!',
-      description: 'Travel is packed with priceless lessons—document it all here! Your future self (and friends) will thank you.',
+      title: 'Your Personal Travel Journal',
+      description: 'Document every adventure with detailed trip logs. Share what worked, what didn\'t, and everything in between. Your honest experiences help friends and family plan better trips.',
       color: '#ec4899'
     },
     {
-      icon: Map,
-      title: 'Master Your Journey!',
-      description: 'Plan like a pro! Save time, money, and headaches by tapping into your network\'s insider tips—skip the faceless online reviews!',
+      icon: Shield,
+      title: 'Zero Fake Reviews Guarantee',
+      description: 'Every review on Tucker Trips comes from someone in your verified network. No bots, no paid promotions, no anonymous strangers—just trustworthy insights from real people you know.',
       color: '#4DB8BA'
     },
     {
       icon: Users,
-      title: 'Build Your Adventure Tribe!',
-      description: 'Turn connections into a powerhouse of shared experiences. Swap stories, trade tips, and grow your travel community!',
+      title: 'Your Trusted Travel Tribe',
+      description: 'Build your private community of fellow travelers. Connect with friends and family who share your travel style, swap insider tips, and help each other discover amazing destinations with confidence.',
       color: '#6366f1'
     }
   ];
@@ -28,9 +28,13 @@ const FeaturesSection = () => {
     <section className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
+          <h6 className="text-[#4DB8BA] text-sm font-bold uppercase tracking-wider mb-4">How It Works</h6>
           <h2 className="text-4xl md:text-5xl font-bold text-[#3a4d6f] mb-6">
-            Tucker Trips organizes your travel logistics - log it, share it, love it!
+            Real Trip Logs. Real Reviews. Real Trust.
           </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Tucker Trips organizes your travel experiences and connects you with people who matter—no fake reviews, no anonymous opinions, just authentic advice from your trusted circle.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
