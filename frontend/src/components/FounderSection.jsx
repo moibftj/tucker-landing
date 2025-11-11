@@ -4,6 +4,17 @@ const FounderSection = () => {
   return (
     <section className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
+        {/* Testimonial Quote */}
+        <div className="mb-16 bg-gradient-to-br from-[#4DB8BA]/10 to-[#ec4899]/10 p-12 rounded-2xl border-l-4 border-[#ec4899]">
+          <blockquote className="text-xl md:text-2xl text-gray-700 italic leading-relaxed mb-6">
+            "When planning a trip, now rely on the trusted advice of those who have experienced the destination before you. Tucker Trips brings all the reliable and unbiased information you need into one convenient platform, ensuring your journey is stress-free and enjoyable from the start. Connect with people you genuinely know and trust, and start your adventure with confidence!"
+          </blockquote>
+          <p className="text-lg font-bold text-[#3a4d6f]">Tucker Trips</p>
+          <p className="text-base text-gray-600 mt-2">
+            Start your journey to extraordinary discoveries with Tucker Trips today!
+          </p>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-6">
@@ -28,17 +39,6 @@ const FounderSection = () => {
               className="w-full h-64 object-cover rounded-xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300"
             />
           </div>
-        </div>
-
-        {/* Testimonial Quote */}
-        <div className="mt-16 bg-gradient-to-br from-[#4DB8BA]/10 to-[#ec4899]/10 p-12 rounded-2xl border-l-4 border-[#ec4899]">
-          <blockquote className="text-xl md:text-2xl text-gray-700 italic leading-relaxed mb-6">
-            "When planning a trip, now rely on the trusted advice of those who have experienced the destination before you. Tucker Trips brings all the reliable and unbiased information you need into one convenient platform, ensuring your journey is stress-free and enjoyable from the start. Connect with people you genuinely know and trust, and start your adventure with confidence!"
-          </blockquote>
-          <p className="text-lg font-bold text-[#3a4d6f]">Tucker Trips</p>
-          <p className="text-base text-gray-600 mt-2">
-            Start your journey to extraordinary discoveries with Tucker Trips today!
-          </p>
         </div>
       </div>
     </section>
