@@ -23,7 +23,6 @@ const Home = () => {
         <CommunitySection />
         <WhoWeAreSection />
         <FeaturesSection />
-        <VideoSection />
         <ContactSection />
         <CTASection />
       </main>
