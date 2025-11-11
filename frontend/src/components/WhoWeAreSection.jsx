@@ -16,27 +16,18 @@ const WhoWeAreSection = () => {
             </p>
           </div>
 
-          {/* Image 1 */}
+          {/* Image */}
           <div>
             <img
-              src="https://images.unsplash.com/photo-1542359649-31e03cd4d909"
+              src="https://images.unsplash.com/photo-1501555088652-021faa106b9b"
               alt="Mountain adventure"
               className="w-full h-[400px] object-cover rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-transform duration-500"
             />
           </div>
         </div>
 
-        {/* Image 2 */}
-        <div className="mb-16">
-          <img
-            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
-            alt="Destination"
-            className="w-full h-[500px] object-cover rounded-2xl shadow-2xl"
-          />
-        </div>
-
         {/* Feature Cards */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
             <h4 className="text-2xl font-bold text-[#3a4d6f] mb-4">
               Unlock the Key to Unforgettable Adventures
@@ -52,6 +43,27 @@ const WhoWeAreSection = () => {
             </h4>
             <p className="text-gray-600 leading-relaxed">
               Trust our community's firsthand experiences and recommendations. Our members provide truthful reviews and reliable logistics, giving you the information you need to plan your itinerary, find the best places to stay, and discover hidden gems.
+            </p>
+          </div>
+        </div>
+
+        {/* Additional Feature Cards */}
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <h4 className="text-2xl font-bold text-[#3a4d6f] mb-4">
+              Unlock the Key to Unforgettable Adventures
+            </h4>
+            <p className="text-gray-600 leading-relaxed">
+              Join a community of travelers who share your passion for exploration. Connect with friends and family who have similar travel interests and benefit from their candid reports and reputable recaps. Together, we create a network of trustworthy insights and experiences.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <h4 className="text-2xl font-bold text-[#3a4d6f] mb-4">
+              Start Your Journey with Tucker Trips
+            </h4>
+            <p className="text-gray-600 leading-relaxed">
+              Sign up today and experience the power of truthful reviews, reliable logistics, and dependable information. Let us be your guide as you embark on unforgettable travel experiences. Together, we'll explore the world with the support and insights of our community.
             </p>
           </div>
         </div>
