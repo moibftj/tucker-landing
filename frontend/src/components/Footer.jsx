@@ -24,14 +24,14 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center mb-4">
-              <div className="relative h-16 w-auto">
+              <div className="relative h-16 w-auto" style={{ mixBlendMode: 'screen' }}>
                 <video
                   autoPlay
                   loop
                   muted
                   playsInline
                   className="h-full w-auto object-contain"
-                  style={{ maxHeight: '64px' }}
+                  style={{ maxHeight: '64px', filter: 'brightness(1.2) contrast(1.1)' }}
                 >
                   <source src="https://customer-assets.emergentagent.com/job_43a6966a-d890-4dd3-91aa-8c7f1d773745/artifacts/d3iha7rk_withoutline.webm" type="video/webm" />
                 </video>
