@@ -23,27 +23,22 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Logo and Description */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="relative w-12 h-12">
+            <div className="flex items-center mb-4">
+              <div className="relative h-16 w-auto">
                 <video
                   autoPlay
                   loop
                   muted
                   playsInline
-                  className="w-full h-full object-contain"
+                  className="h-full w-auto object-contain"
+                  style={{ maxHeight: '64px' }}
                 >
                   <source src="https://customer-assets.emergentagent.com/job_43a6966a-d890-4dd3-91aa-8c7f1d773745/artifacts/d3iha7rk_withoutline.webm" type="video/webm" />
                 </video>
               </div>
-              <div className="flex flex-col">
-                <h3 className="text-xl font-bold">
-                  <span className="text-[#ec4899]">Tucker</span>
-                  <span className="text-white">trips</span>
-                </h3>
-              </div>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              At Tucker Trips, we understand the importance of honest and reliable information.
+              Real travel reviews from people you trust. No fake reviews, no anonymous strangers—just authentic experiences from your network.
             </p>
           </div>
 
