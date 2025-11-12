@@ -38,32 +38,32 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
+    <section className="py-12 sm:py-16 md:py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8">
             <div>
-              <h6 className="text-[#4DB8BA] text-sm font-bold uppercase tracking-wider mb-4">Get in Touch</h6>
-              <h2 className="text-4xl md:text-5xl font-bold text-[#3a4d6f] mb-6">
+              <h6 className="text-[#4DB8BA] text-xs sm:text-sm font-bold uppercase tracking-wider mb-3 md:mb-4">Get in Touch</h6>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#3a4d6f] mb-4 md:mb-6">
                 Don't hesitate to reach out
               </h2>
-              <p className="text-lg text-gray-600 mb-8">
+              <p className="text-base sm:text-lg text-gray-600 mb-6 md:mb-8">
                 Questions, ideas, or partnerships? We'd love to hear from you.
               </p>
-              <Button className="bg-[#ec4899] hover:bg-[#db2777] text-white font-bold px-8 py-6 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button className="bg-[#ec4899] hover:bg-[#db2777] text-white font-bold px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
                 Contact Us
               </Button>
             </div>
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white p-8 rounded-2xl shadow-xl">
-            <h3 className="text-2xl font-bold text-[#3a4d6f] mb-6">Send us a message</h3>
+          <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl">
+            <h3 className="text-xl sm:text-2xl font-bold text-[#3a4d6f] mb-4 sm:mb-6">Send us a message</h3>
             
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <Label htmlFor="name" className="text-gray-700">Name</Label>
+                <Label htmlFor="name" className="text-gray-700 text-sm sm:text-base">Name</Label>
                 <Input
                   id="name"
                   name="name"
@@ -75,7 +75,7 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <Label htmlFor="phone" className="text-gray-700">Phone <span className="text-gray-400 text-sm">(optional)</span></Label>
+                <Label htmlFor="phone" className="text-gray-700 text-sm sm:text-base">Phone <span className="text-gray-400 text-xs sm:text-sm">(optional)</span></Label>
                 <Input
                   id="phone"
                   name="phone"
@@ -87,7 +87,7 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <Label htmlFor="email" className="text-gray-700">Email</Label>
+                <Label htmlFor="email" className="text-gray-700 text-sm sm:text-base">Email</Label>
                 <Input
                   id="email"
                   name="email"
@@ -100,7 +100,7 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <Label htmlFor="subject" className="text-gray-700">Subject</Label>
+                <Label htmlFor="subject" className="text-gray-700 text-sm sm:text-base">Subject</Label>
                 <Input
                   id="subject"
                   name="subject"
@@ -112,7 +112,7 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <Label htmlFor="message" className="text-gray-700">Message</Label>
+                <Label htmlFor="message" className="text-gray-700 text-sm sm:text-base">Message</Label>
                 <Textarea
                   id="message"
                   name="message"
@@ -130,7 +130,7 @@ const ContactSection = () => {
                 Send Message
               </Button>
               
-              <p className="text-sm text-gray-500 text-center">
+              <p className="text-xs sm:text-sm text-gray-500 text-center">
                 We'll reply within 1–2 business days.
               </p>
             </form>
