@@ -25,16 +25,16 @@ const FeaturesSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-white">
+    <section className="py-12 sm:py-16 md:py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h6 className="text-[#4DB8BA] text-sm font-bold uppercase tracking-wider mb-4">How It Works</h6>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#3a4d6f] mb-6">
+        <div className="text-center mb-12 md:mb-16">
+          <h6 className="text-[#4DB8BA] text-xs sm:text-sm font-bold uppercase tracking-wider mb-3 md:mb-4">How It Works</h6>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#3a4d6f] mb-4 md:mb-6">
             Real trip logs. Real context. Real trust.
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
@@ -42,17 +42,17 @@ const FeaturesSection = () => {
                 key={index} 
                 className="border-none shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-white to-gray-50"
               >
-                <CardContent className="p-8 text-center">
+                <CardContent className="p-6 sm:p-8 text-center">
                   <div 
-                    className="inline-flex items-center justify-center w-20 h-20 rounded-full mb-6 transform hover:scale-110 transition-transform duration-300"
+                    className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full mb-4 sm:mb-6 transform hover:scale-110 transition-transform duration-300"
                     style={{ backgroundColor: `${feature.color}20` }}
                   >
-                    <Icon className="w-10 h-10" style={{ color: feature.color }} />
+                    <Icon className="w-8 h-8 sm:w-10 sm:h-10" style={{ color: feature.color }} />
                   </div>
-                  <h3 className="text-2xl font-bold text-[#3a4d6f] mb-4">
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#3a4d6f] mb-3 sm:mb-4">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                     {feature.description}
                   </p>
                 </CardContent>

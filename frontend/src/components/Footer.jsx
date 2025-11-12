@@ -24,20 +24,20 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center mb-4">
-              <div className="relative h-16 w-auto bg-[#2a3a5a] rounded-lg px-2" style={{ backgroundColor: '#2a3a5a' }}>
+              <div className="relative h-12 sm:h-16 w-auto bg-[#2a3a5a] rounded-lg px-1 sm:px-2" style={{ backgroundColor: '#2a3a5a' }}>
                 <video
                   autoPlay
                   loop
                   muted
                   playsInline
-                  className="h-full w-auto object-contain"
-                  style={{ maxHeight: '64px', mixBlendMode: 'lighten', opacity: 0.95 }}
+                  className="h-full w-auto object-contain max-w-[120px] sm:max-w-none"
+                  style={{ maxHeight: '48px', mixBlendMode: 'lighten', opacity: 0.95 }}
                 >
                   <source src="https://customer-assets.emergentagent.com/job_43a6966a-d890-4dd3-91aa-8c7f1d773745/artifacts/d3iha7rk_withoutline.webm" type="video/webm" />
                 </video>
               </div>
             </div>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
               Real travel notes from people you trust. No anonymous reviews—just authentic trip logs from your trusted circle.
             </p>
           </div>
