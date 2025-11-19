@@ -18,8 +18,8 @@ const HeroSection = () => {
           <div className="space-y-4 sm:space-y-6 md:space-y-8 animate-fade-in">
             <div className="space-y-2 sm:space-y-3 md:space-y-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ec4899] via-[#f472b6] to-[#ec4899] drop-shadow-[0_0_30px_rgba(236,72,153,0.5)]">
-                  Real travel notes
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ec4899] via-[#f472b6] to-[#ec4899] drop-shadow-[0_0_30px_rgba(236,72,153,0.5)] animate-pulse">
+                  Travel notes
                 </span>
                 <br />
                 <span className="text-white">
@@ -27,7 +27,7 @@ const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed max-w-lg">
-                Skip anonymous reviews. Log your trips, share honest lessons, and help your circle travel smarter.
+                Log trips. Share lessons. Travel smarter.
               </p>
             </div>
 
@@ -58,21 +58,6 @@ const HeroSection = () => {
               </p>
             </div>
 
-            {/* Alt stat line */}
-            <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-6 pt-3 sm:pt-4 border-t border-white/10">
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-[#4DB8BA] rounded-full"></div>
-                <p className="text-xs sm:text-sm text-gray-300">No anonymous reviews</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-[#4DB8BA] rounded-full"></div>
-                <p className="text-xs sm:text-sm text-gray-300">Friends & family only</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-[#4DB8BA] rounded-full"></div>
-                <p className="text-xs sm:text-sm text-gray-300">Share privately or publicly</p>
-              </div>
-            </div>
           </div>
 
           {/* Right Side - Video Animation */}
@@ -91,9 +76,8 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-[#3a4d6f]/50 to-transparent pointer-events-none"></div>
             </div>
             
-            {/* Decorative floating elements */}
-            <div className="absolute -top-4 -right-4 w-20 h-20 md:w-24 md:h-24 bg-[#ec4899] rounded-full blur-3xl opacity-50 animate-pulse"></div>
-            <div className="absolute -bottom-4 -left-4 w-24 h-24 md:w-32 md:h-32 bg-[#4DB8BA] rounded-full blur-3xl opacity-50 animate-pulse" style={{ animationDelay: '1s' }}></div>
+            <div className="absolute -top-4 -right-4 w-20 h-20 md:w-24 md:h-24 bg-[#ec4899] rounded-full blur-3xl opacity-60 animate-pulse"></div>
+            <div className="absolute -bottom-4 -left-4 w-24 h-24 md:w-32 md:h-32 bg-[#4DB8BA] rounded-full blur-3xl opacity-60" style={{ animation: 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite, float 8s ease-in-out infinite', animationDelay: '1s' }}></div>
           </div>
         </div>
       </div>

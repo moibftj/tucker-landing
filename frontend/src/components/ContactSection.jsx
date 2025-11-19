@@ -44,14 +44,13 @@ const ContactSection = () => {
           {/* Contact Info */}
           <div className="space-y-6 md:space-y-8">
             <div>
-              <h6 className="text-[#4DB8BA] text-xs sm:text-sm font-bold uppercase tracking-wider mb-3 md:mb-4">Get in Touch</h6>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#3a4d6f] mb-4 md:mb-6">
-                Don't hesitate to reach out
+                Get in Touch
               </h2>
               <p className="text-base sm:text-lg text-gray-600 mb-6 md:mb-8">
-                Questions, ideas, or partnerships? We'd love to hear from you.
+                Questions or partnerships? Let's talk.
               </p>
-              <Button className="bg-[#ec4899] hover:bg-[#db2777] text-white font-bold px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button className="bg-[#ec4899] hover:bg-[#db2777] text-white font-bold px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 Contact Us
               </Button>
             </div>
