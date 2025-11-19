@@ -58,8 +58,8 @@ const CommunitySection = () => {
           {/* Single Quality Image */}
           <div className="animate-float">
             <img
-              src="https://images.unsplash.com/photo-1756142007155-c8b4eb0c3808"
-              alt="Friends traveling together"
+              src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&q=80"
+              alt="Hiker with backpack celebrating on mountain peak with scenic vista"
               className="w-full h-[400px] md:h-[500px] object-cover rounded-2xl shadow-2xl transform hover:scale-[1.03] transition-all duration-500"
             />
           </div>
