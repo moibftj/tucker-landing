@@ -21,14 +21,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-14 sm:h-16 md:h-20">
           {/* Logo - Only animated video */}
           <div className="flex items-center flex-shrink-0">
-            <div className="relative h-8 sm:h-10 md:h-12 lg:h-16 w-auto bg-[#323f65] rounded-lg px-1 sm:px-2" style={{ backgroundColor: '#323f65' }}>
+            <div className="relative h-8 sm:h-10 md:h-12 lg:h-16 w-auto overflow-hidden px-1 sm:px-2" style={{ background: 'transparent' }}>
               <video
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="h-full w-auto object-contain max-w-[100px] sm:max-w-[120px] md:max-w-none"
-                style={{ maxHeight: '32px', mixBlendMode: 'lighten', opacity: 0.95 }}
+                className="h-full w-auto object-contain max-w-[100px] sm:max-w-[120px] md:max-w-none relative z-10 mix-blend-screen"
+                style={{ maxHeight: '32px', filter: 'brightness(1.1) contrast(1.2)' }}
               >
                 <source src="https://customer-assets.emergentagent.com/job_43a6966a-d890-4dd3-91aa-8c7f1d773745/artifacts/d3iha7rk_withoutline.webm" type="video/webm" />
               </video>
